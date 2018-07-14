@@ -1,4 +1,4 @@
-This is my total work artifacts for Udacity's "Intro to Machine Learning" _(Jun 2018)_
+These are my total work artifacts for Udacity's "Intro to Machine Learning" _(Jun 2018)_
 
 https://eu.udacity.com/course/intro-to-machine-learning--ud120
 
