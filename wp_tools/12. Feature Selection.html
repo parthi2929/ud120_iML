@@ -11938,7 +11938,7 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Identify the Most Powerful Features</strong></p>
-<p>Take your (overfit) decision tree and use the <code>feature_importances_</code> attribute to get a list of the relative importance of all the features being used. We suggest iterating through this list (it�s long, since this is text data) and only printing out the feature importance if it�s above some threshold (say, 0.2--remember, if all words were equally important, each one would give an importance of far less than 0.01). What�s the importance of the most important feature? What is the number of this feature?</p>
+<p>Take your (overfit) decision tree and use the <code>feature_importances_</code> attribute to get a list of the relative importance of all the features being used. We suggest iterating through this list (it's long, since this is text data) and only printing out the feature importance if it's above some threshold (say, 0.2--remember, if all words were equally important, each one would give an importance of far less than 0.01). What's the importance of the most important feature? What is the number of this feature?</p>
 
 </div>
 </div>
@@ -12018,7 +12018,7 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Use TfIdf to Get the Most Important Word</strong></p>
-<p>In order to figure out what words are causing the problem, you need to go back to the TfIdf and use the feature numbers that you obtained in the previous part of the mini-project to get the associated words. You can return a list of all the words in the TfIdf by calling get_feature_names() on it; pull out the word that�s causing most of the discrimination of the decision tree. What is it? Does it make sense as a word that�s uniquely tied to either Chris Germany or Sara Shackleton, a signature of sorts?</p>
+<p>In order to figure out what words are causing the problem, you need to go back to the TfIdf and use the feature numbers that you obtained in the previous part of the mini-project to get the associated words. You can return a list of all the words in the TfIdf by calling get_feature_names() on it; pull out the word that's causing most of the discrimination of the decision tree. What is it? Does it make sense as a word that's uniquely tied to either Chris Germany or Sara Shackleton, a signature of sorts?</p>
 
 </div>
 </div>
@@ -12061,7 +12061,7 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Remove, Repeat</strong></p>
-<p>This word seems like an outlier in a certain sense, so let�s remove it and refit. Go back to <code>text_learning/vectorize_text.py</code>, and remove this word from the emails using the same method you used to remove �sara�, �chris�, etc. Rerun <code>vectorize_text.py</code>, and once that finishes, rerun find_signature.py. Any other outliers pop up? What word is it? Seem like a signature-type word? (Define an outlier as a feature with importance &gt;0.2, as before).</p>
+<p>This word seems like an outlier in a certain sense, so let's remove it and refit. Go back to <code>text_learning/vectorize_text.py</code>, and remove this word from the emails using the same method you used to remove 'sara', 'chris', etc. Rerun <code>vectorize_text.py</code>, and once that finishes, rerun find_signature.py. Any other outliers pop up? What word is it? Seem like a signature-type word? (Define an outlier as a feature with importance &gt;0.2, as before).</p>
 <p><br><font color=blue>
 **Note:**
 Since we dont want to touch existing code, and to illustrate bigger picture, we will use ```vectorize_code.py``` and its dependencies here as well, so hold on, lengthy coding ahead</font></p>
